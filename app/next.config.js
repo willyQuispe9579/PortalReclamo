@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    API_KEY: process.env.API_KEY || "https://api-portalreclamo.onrender.com",
-    API_URL: process.env.API_URL || "957902342",
+    API_KEY: process.env.API_KEY || "957902342",
+    API_URL: process.env.API_URL || "https://api-portalreclamo.onrender.com",
   },
 };
 
