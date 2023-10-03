@@ -1,0 +1,40 @@
+.fileList {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+
+  span {
+    background: #002e39;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+  }
+
+  span:first-child {
+    background: #002e39;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  p {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 220px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    background: rgb(0, 46, 57, 0.7);
+  }
+}

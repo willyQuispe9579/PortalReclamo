@@ -1,0 +1,37 @@
+@import "../../../styles/mixins.scss";
+.textTareaInfo {
+  position: relative;
+  height: 200px;
+
+  @include media-xl() {
+    height: 150px;
+  }
+  label {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    top: 0;
+    width: 100%;
+    font-weight: 300;
+    height: 25px;
+    background-color: #e5eaeb;
+    font-size: 12px;
+    color: #888888;
+    border-radius: 7px;
+  }
+
+  textarea {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 21px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0, 46, 57, 0.6);
+    background-color: rgb(0, 46, 57, 0.1);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    height: 100%;
+    resize: none;
+  }
+}

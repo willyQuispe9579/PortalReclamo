@@ -1,0 +1,82 @@
+[
+  {
+    "claim_id": "e95e4b3a-f415-4102-becd-b56e3ef7e861",
+    "person_id": "2c4e9964-4d34-4c99-8fea-9ed72ce7588e",
+    "body_claim": "Mi reclamo termina aqui Organizaciones de la Sociedad Civil (COSOC)\nOrdenanzas\nConcursos Públicos\nInstituciones Asociadas\nLey Orgánica Constitucional de Municipalidades\nIntranet Municipal\nPlan de Desarrollo Comunal PLADECO\nCuentas Públicas\nAlcaldesa\nLimpieza de fachadas de la Alameda llega al 100%\nConcejo municipal de Santiago aprueba el cambio de nombre de tramos de ocho calles y otros tres sitios de memoria",
+    "endingDate": "2023-08-15T16:13:55.924773",
+    "type_claim": "Problemas de seguridad",
+    "person_data": {
+      "id": "2c4e9964-4d34-4c99-8fea-9ed72ce7588e",
+      "rut": "11.111.111-1",
+      "name": "Kazuma",
+      "email": "portalreclamo@gmail.com",
+      "phone": "957902342",
+      "maternallastname": "Lujan",
+      "paternallastname": "montero"
+    },
+    "type_claim_id": "b41841be-14eb-48a2-83c3-91f4ab6ec029",
+    "claim_file_data": [
+      {
+        "id": "ba8fd23e-2b65-4dbd-81db-c7c3675dbfec",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692126701/uz4qkpf9ndyy43bdmnag.jpg",
+        "claim_id": "e95e4b3a-f415-4102-becd-b56e3ef7e861",
+        "public_id": "uz4qkpf9ndyy43bdmnag"
+      },
+      {
+        "id": "65e5cb62-4f34-48ff-a844-1af69491e6fc",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692126703/inpwa7kh0wxkqngxch6m.jpg",
+        "claim_id": "e95e4b3a-f415-4102-becd-b56e3ef7e861",
+        "public_id": "inpwa7kh0wxkqngxch6m"
+      },
+      {
+        "id": "4e2e18a0-91c8-48c8-9034-1d87e29ad8ae",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692126704/xhp53koakyjs7wp712sa.jpg",
+        "claim_id": "e95e4b3a-f415-4102-becd-b56e3ef7e861",
+        "public_id": "xhp53koakyjs7wp712sa"
+      }
+    ]
+  },
+  {
+    "claim_id": "02037dca-2128-412d-90cd-d8bbbb65232a",
+    "person_id": "0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef",
+    "body_claim": "reclamo",
+    "endingDate": "2023-08-16T03:17:07.596834",
+    "type_claim": "Problemas de seguridad",
+    "person_data": {
+      "id": "0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef",
+      "rut": "27.648.009-K",
+      "name": "Abad",
+      "email": "quispeabadquispe@gmail.com",
+      "phone": "957902342",
+      "maternallastname": "Huamani",
+      "paternallastname": "Quispe"
+    },
+    "type_claim_id": "b41841be-14eb-48a2-83c3-91f4ab6ec029",
+    "claim_file_data": [
+      {
+        "id": "93856785-d88d-402b-a360-44882583a516",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692155835/ryxb8vrcy6tjzzpb3vw4.jpg",
+        "claim_id": "02037dca-2128-412d-90cd-d8bbbb65232a",
+        "public_id": "ryxb8vrcy6tjzzpb3vw4"
+      },
+      {
+        "id": "fb176ad2-04c2-4092-8812-b6c31d1a541b",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692155838/vpfoqsgo3yiwtzxre2x4.jpg",
+        "claim_id": "02037dca-2128-412d-90cd-d8bbbb65232a",
+        "public_id": "vpfoqsgo3yiwtzxre2x4"
+      },
+      {
+        "id": "6ad2480d-e6d2-49e5-aad0-245c77812892",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692155839/k3jxvu5ogqmgy6wc0dve.jpg",
+        "claim_id": "02037dca-2128-412d-90cd-d8bbbb65232a",
+        "public_id": "k3jxvu5ogqmgy6wc0dve"
+      },
+      {
+        "id": "dd3d058e-9081-4448-8f04-94926c1f829a",
+        "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692155840/jmkeqjmg8tc47rnb7u4j.jpg",
+        "claim_id": "02037dca-2128-412d-90cd-d8bbbb65232a",
+        "public_id": "jmkeqjmg8tc47rnb7u4j"
+      }
+    ]
+  }
+]

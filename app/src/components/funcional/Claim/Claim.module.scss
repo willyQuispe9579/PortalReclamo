@@ -1,0 +1,74 @@
+@import "../../../styles/mixins.scss";
+.claimRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 70vh;
+  @include media-xl() {
+    display: none;
+  }
+}
+
+.claimcenter {
+  display: none;
+  @include media-xl() {
+    display: flex;
+  }
+}
+
+.fileClaim {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  @include media-xl() {
+    justify-content: space-between;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+
+    @include media-xl() {
+      height: 80px;
+    }
+
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #002e39;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+}
+
+.contenImg {
+  width: 100%;
+  height: auto;
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+}

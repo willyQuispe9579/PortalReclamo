@@ -1,0 +1,30 @@
+@import "../../../styles/mixins.scss";
+.titleUser {
+  color: #002e39;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.infoUser {
+  width: 300px;
+  color: #002e39;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.userRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 70vh;
+  @include media-xl() {
+    display: none;
+  }
+}

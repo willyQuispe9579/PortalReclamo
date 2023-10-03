@@ -1,0 +1,14 @@
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 21:45:20"}
+{"level":"error","message":"ERROR Connect DatabaseError: Connection terminated unexpectedly","timestamp":"2023-10-02 21:45:21"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:31:20"}
+{"level":"error","message":"ERROR Connect DatabaseError: The server does not support SSL connections","timestamp":"2023-10-02 22:31:20"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:32:20"}
+{"level":"error","message":"ERROR connecting to Database: Error: The server does not support SSL connections","timestamp":"2023-10-02 22:32:20"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:33:32"}
+{"level":"error","message":"ERROR connecting to Database: Error: The server does not support SSL connections","timestamp":"2023-10-02 22:33:32"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:35:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-02 22:35:21"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:36:31"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-02 22:36:32"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-02 22:36:58"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-02 22:36:59"}

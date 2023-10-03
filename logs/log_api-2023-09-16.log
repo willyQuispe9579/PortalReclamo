@@ -1,0 +1,4 @@
+{"level":"info","message":"API listening port 5400","timestamp":"2023-09-16 13:31:29"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-09-16 13:31:29"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-09-16 13:32:01"}
+{"level":"info","message":"Connect Database","timestamp":"2023-09-16 13:32:02"}

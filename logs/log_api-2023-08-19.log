@@ -1,0 +1,169 @@
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-18 23:33:43"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-18 23:33:44"}
+{"level":"info","message":{"body":{"email":"portalreclamo@gmail.com","password":"admin"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-08-18 23:34:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeClaim/getAll"},"timestamp":"2023-08-18 23:34:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeClaim/getAll"},"timestamp":"2023-08-18 23:34:43"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-18 23:34:45"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-18 23:34:45"}
+{"level":"info","message":{"body":{"email":"portalReclamo@gmail.com","password":"admin"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-08-18 23:36:13"}
+{"level":"info","message":{"body":{"email":"portalreclamo@gmail.com","password":"admin"},"method":"POST","params":"","query":"","url":"/api/user/validate"},"timestamp":"2023-08-18 23:36:19"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeClaim/getAll"},"timestamp":"2023-08-18 23:36:40"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeClaim/getAll"},"timestamp":"2023-08-18 23:36:40"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-18 23:36:41"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-18 23:36:41"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:16:50"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:16:51"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:24:54"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:24:56"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:25:08"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:25:10"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:25:30"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:25:31"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:33:27"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:33:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:34:39"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:34:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:36:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:36:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:36:28"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:36:52"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:36:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:36:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:36:56"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 00:37:27"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 00:37:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:37:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:37:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:39:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:39:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:39:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:43:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 00:43:09"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 01:09:08"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 01:09:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 01:09:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 01:09:41"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 01:37:39"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 01:37:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 01:37:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 01:37:44"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 11:25:27"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 11:25:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 11:26:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 11:26:04"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 11:32:47"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 11:32:48"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 11:51:15"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 11:51:17"}
+{"level":"info","message":{"body":{"rut":"12.869.241-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-08-19 11:51:23"}
+{"level":"info","message":{"data":null,"model":"Person/getByRut"},"timestamp":"2023-08-19 11:51:24"}
+{"level":"info","message":{"body":{"email":"quispeabadquispe@gmail.com","maternallastname":"Ocobamba","name":"Alexander","paternallastname":"Quispe","phone":"963258741","rut":"12.869.241-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-08-19 11:51:41"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/claim/create"},"timestamp":"2023-08-19 11:51:41"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","id":"36b22f6e-06ca-4f32-bf40-33dd63caaf00","maternallastname":"Ocobamba","name":"Alexander","paternallastname":"Quispe","phone":"963258741","rut":"12.869.241-K"},"model":"Person/create"},"timestamp":"2023-08-19 11:51:42"}
+{"level":"info","message":{"data":{"endingdate":"2023-08-19T19:51:43.001Z","id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d","openingdate":"2023-08-19T19:51:43.001Z"},"model":"ModelClaim/create"},"timestamp":"2023-08-19 11:51:42"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 11:51:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-19 11:51:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-19 11:51:43"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-19 11:51:43"}
+{"level":"info","message":{"data":[{"id":"28af3e1d-8af8-47fc-b631-1ac3845e8f14","typename":"Infraestructura y obras públicas"},{"id":"7cc4a9e1-dc6e-4fcb-9475-bc052daad2f7","typename":"Transporte público"},{"id":"280888bb-56af-4bc3-ba07-a1f571dfe30b","typename":"Licencias y permisos"},{"id":"3091e865-f7a9-45b7-b9c0-1839008ffcad","typename":"Ruidos y contaminación"},{"id":"b41841be-14eb-48a2-83c3-91f4ab6ec029","typename":"Problemas de seguridad"},{"id":"c9aec491-50f3-403e-a51e-204c0bb9d4f5","typename":"Problemas de iluminación"},{"id":"0202cb87-b934-48e8-994e-aa49619cc35e","typename":"Problemas de servicios en línea"},{"id":"027d280c-b0a1-4a12-958a-dcfd45e2e0f7","typename":"Mi nuevo tipo mi nuevo valor"},{"id":"e43bd7b2-f6c4-4994-85bc-a0d30b95b850","typename":"Problemas de Alumbrado"},{"id":"05269505-b463-425a-b5f2-44b201d617ed","typename":"Servicios públicos anidados"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-19 11:51:45"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-08-19 11:52:05"}
+{"level":"info","message":{"data":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"model":"file/add"},"timestamp":"2023-08-19 11:52:09"}
+{"level":"info","message":{"body":{"claim_body":"MI r4eclamo es ","claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d","person_id":"36b22f6e-06ca-4f32-bf40-33dd63caaf00","type_id":"05269505-b463-425a-b5f2-44b201d617ed"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-08-19 11:52:13"}
+{"level":"info","message":{"data":{"claim_body":"MI r4eclamo es ","claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d","id":"804381db-a9ef-44ea-a398-0682463c4893","type_id":"05269505-b463-425a-b5f2-44b201d617ed"},"model":"ModelClaim/create"},"timestamp":"2023-08-19 11:52:14"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 11:52:14"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 11:52:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 11:52:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 11:52:30"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 12:14:41"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 12:14:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:14:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:14:49"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:14:58"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:14:58"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:15:12"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 12:24:16"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 12:24:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:26:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:26:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:27:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 12:27:10"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:28:10"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:29:19"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:29:19"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:29:29"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:29:30"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:17"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:17"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:17"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:21"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:30"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:32"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:36"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:37"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:31:40"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:32:00"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:32:01"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:32:05"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:32:52"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:32:54"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:33:56"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:33:56"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 12:34:03"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 13:43:40"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 13:43:42"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:43:46"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:44:08"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:45:15"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:45:15"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:45:19"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:45:24"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:45:24"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:46:16"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:46:17"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:47:31"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:47:31"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:47:32"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:47:35"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:47:35"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 13:51:16"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 13:51:17"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:51:21"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:51:53"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:51:54"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:52:00"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:52:04"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:52:06"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:52:10"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:52:10"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 13:55:33"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 13:55:34"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:55:47"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:55:47"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 13:55:54"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 14:21:00"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 14:21:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 14:21:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 14:21:05"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:06"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:06"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:08"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:08"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:16"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 14:21:16"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 15:34:28"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 15:34:30"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:34:36"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:34:36"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 15:43:06"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 15:43:07"}
+{"level":"info","message":{"body":{"claim_id":"e95e4b3a-f415-4102-becd-b56e3ef7e861"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:43:09"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-19 15:45:53"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-19 15:45:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 15:45:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/api/claim/getAll"},"timestamp":"2023-08-19 15:45:59"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:46:03"}
+{"level":"info","message":{"body":{"claim_id":"04a4fa75-fcd6-4b17-a51c-d01d7cafe36d"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:46:03"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:46:10"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:46:10"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:49:08"}
+{"level":"info","message":{"body":{"claim_id":"02037dca-2128-412d-90cd-d8bbbb65232a"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-08-19 15:49:08"}

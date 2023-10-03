@@ -1,0 +1,34 @@
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:30:44"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-08-01 19:30:44"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:31:20"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-08-01 19:31:20"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:32:44"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-08-01 19:32:44"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:32:47"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-08-01 19:32:47"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:34:12"}
+{"level":"error","message":"ERROR Connect DatabaseError: read ECONNRESET","timestamp":"2023-08-01 19:34:12"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 19:35:00"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-01 19:35:01"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-08-01 19:37:36"}
+{"level":"info","message":{"data":null,"model":"Person/getByRut"},"timestamp":"2023-08-01 19:37:37"}
+{"level":"info","message":{"body":{"email":"quispeabadquispe@gmail.com","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-08-01 19:37:55"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-01 19:37:56"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-01 19:37:56"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","id":"0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-08-01 19:37:56"}
+{"level":"info","message":{"data":[],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-01 19:37:57"}
+{"level":"info","message":{"data":[],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-01 19:37:57"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-08-01 19:38:00"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","id":"0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-08-01 19:38:00"}
+{"level":"info","message":{"body":{"email":"quispeabadquispe@gmail.com","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-08-01 19:38:45"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-01 19:38:45"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-08-01 19:38:45"}
+{"level":"info","message":{"data":[],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-01 19:38:46"}
+{"level":"info","message":{"data":[],"model":"TypeClaimModels/getAll"},"timestamp":"2023-08-01 19:38:46"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","id":"0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-08-01 19:38:47"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-01 22:44:03"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-01 22:44:04"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-08-02 01:17:15"}
+{"level":"info","message":"Connect Database","timestamp":"2023-08-02 01:17:16"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-08-02 01:17:20"}
+{"level":"info","message":{"data":{"email":"quispeabadquispe@gmail.com","id":"0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef","maternallastname":"Huamani","name":"Abad","paternallastname":"Quispe","phone":"957902342","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-08-02 01:17:21"}

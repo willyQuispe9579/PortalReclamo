@@ -1,0 +1,37 @@
+{
+  "claim_id": "c1c3b4b2-fba6-4ef3-a225-c40202484344",
+  "person_id": "0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef",
+  "body_claim": "Mi reclamo 3",
+  "endingDate": "2023-08-15T06:08:06.774055",
+  "type_claim": "Infraestructura y obras públicas",
+  "person_data": {
+    "id": "0dbdf4ee-27e8-4080-bc1b-779a38c9d9ef",
+    "rut": "27.648.009-K",
+    "name": "Abad",
+    "email": "quispeabadquispe@gmail.com",
+    "phone": "957902342",
+    "maternallastname": "Huamani",
+    "paternallastname": "Quispe"
+  },
+  "type_claim_id": "28af3e1d-8af8-47fc-b631-1ac3845e8f14",
+  "claim_file_data": [
+    {
+      "id": "0f6d456c-0ad5-48cf-93c0-cc0bf9c88b46",
+      "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692079692/vkfuvrsisdrq62hexx1k.jpg",
+      "claim_id": "c1c3b4b2-fba6-4ef3-a225-c40202484344",
+      "public_id": "vkfuvrsisdrq62hexx1k"
+    },
+    {
+      "id": "050b4152-dc6b-4b97-9e0c-2a5e0663151c",
+      "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692079693/gmdmkkkglzw9zp8agwiq.jpg",
+      "claim_id": "c1c3b4b2-fba6-4ef3-a225-c40202484344",
+      "public_id": "gmdmkkkglzw9zp8agwiq"
+    },
+    {
+      "id": "78049547-8cd8-4289-b88e-5ea6207c6060",
+      "url": "http://res.cloudinary.com/dzfg8xnxn/image/upload/v1692079694/wkuxq7uxs24vv9tqowma.jpg",
+      "claim_id": "c1c3b4b2-fba6-4ef3-a225-c40202484344",
+      "public_id": "wkuxq7uxs24vv9tqowma"
+    }
+  ]
+}

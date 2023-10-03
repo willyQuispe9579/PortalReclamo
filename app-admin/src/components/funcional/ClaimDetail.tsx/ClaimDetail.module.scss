@@ -1,0 +1,104 @@
+.claimDetail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.claimInfoDetail {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.claimInfoDetailTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(0, 46, 57, 0.5);
+  border-radius: 7px;
+}
+
+.claimFilesDetail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 7px;
+  max-height: 75vh;
+  overflow: auto;
+
+  .claimFilesDetailTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-height: 40px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(0, 46, 57, 0.5);
+    border-radius: 7px;
+  }
+  .contentImg {
+    height: calc(100% - 40px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    gap: 10px;
+    img {
+      width: 340px;
+      border-radius: 7px;
+    }
+  }
+}
+
+.cardLevel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 115px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
+  background-color: #f3f3f3;
+  span {
+    font-size: 16px;
+    color: rgba(0, 46, 57, 0.6);
+  }
+}
+
+.claimDetailAccion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  width: 300px;
+  border-radius: 7px;
+  gap: 5px;
+}
+
+.claimDetailAccionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(0, 46, 57, 0.5);
+  border-radius: 7px;
+}

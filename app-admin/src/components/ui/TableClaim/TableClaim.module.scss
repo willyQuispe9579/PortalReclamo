@@ -1,0 +1,50 @@
+.tableClaim {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  thead {
+    background-color: rgba(255, 255, 255);
+    tr {
+      background-color: rgb(0, 46, 57, 0.7);
+      height: 40px;
+      th {
+        color: white;
+      }
+    }
+  }
+  tbody {
+    tr {
+      height: 40px;
+
+      &:hover {
+        background-color: rgb(0, 46, 57, 0.4) !important;
+      }
+
+      td {
+        text-align: center;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          cursor: pointer;
+          transition: transform 0.3s linear;
+
+          &:active {
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+.level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 46, 57, 0.4);
+  width: 120px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 0 auto;
+}

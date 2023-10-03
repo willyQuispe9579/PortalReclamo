@@ -1,0 +1,17 @@
+.cardPerson {
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+.cardPersonTilte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(0, 46, 57, 0.5);
+  border-radius: 7px;
+}

@@ -1,0 +1,212 @@
+.contenTable {
+  max-height: 70vh;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(0, 45, 56);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
+}
+.tableClaimType {
+  background: #ffffff;
+  thead {
+    tr {
+      background-color: rgb(0, 46, 57, 0.7);
+      th {
+        height: 50px;
+        color: #ffffff;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:hover {
+        background-color: rgb(0, 46, 57, 0.4) !important;
+      }
+      td {
+        text-align: center;
+        height: 50px;
+        vertical-align: middle;
+
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+
+.buttonDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9292;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  color: #000;
+  border-radius: 7px;
+  width: 80px;
+  height: 40px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.buttonUpdate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe281;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
+  width: 80px;
+  height: 40px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.buttonSave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #81ff83;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.contentUpdate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 140px;
+  background: #e8e8e8;
+  border-radius: 7px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(0, 45, 56);
+    width: 100%;
+    height: 50px;
+    border-radius: 7px 7px 0 0;
+  }
+}
+
+.contenForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 90px;
+  padding: 0px 15px;
+}
+
+.contentDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 140px;
+  width: 350px;
+  background: #e8e8e8;
+  border-radius: 7px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(0, 45, 56);
+    padding: 0 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px 7px 0 0;
+  }
+}
+
+.contentNew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 140px;
+  background: #e8e8e8;
+  border-radius: 7px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(0, 45, 56);
+    padding: 0 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px 7px 0 0;
+  }
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+}
+
+.lenghtList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(0, 45, 56);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.title {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: rgb(0, 45, 56);
+}
