@@ -19,7 +19,11 @@ class App {
     this.server.use(express.json());
     this.server.use(
       cors({
-        origin: ["http://localhost:8000", "http://localhost:4400"],
+        origin: [
+          "http://localhost:8000",
+          "http://localhost:4400",
+          "https://app-portalreclamo.onrender.com",
+        ],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
       })
