@@ -20,10 +20,10 @@ class App {
     this.server.use(
       cors({
         origin: [
-          "http://localhost:8000",
-          "http://localhost:4400",
           "https://app-portalreclamo.onrender.com",
           "https://admin-portalreclamo.onrender.com",
+          "http://localhost:8000",
+          "http://localhost:4400",
         ],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
