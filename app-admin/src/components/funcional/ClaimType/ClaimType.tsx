@@ -188,7 +188,7 @@ const ClaimType = () => {
 
             {crud === "delete" && (
               <div className={styles.contentDelete}>
-                <h1>Está seguro de que desea eliminar " {form.value} "</h1>
+                <h1>Está seguro de que desea eliminar  {form.value} </h1>
 
                 <div className={styles.contenForm}>
                   <Button
