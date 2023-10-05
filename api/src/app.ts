@@ -23,6 +23,7 @@ class App {
           "http://localhost:8000",
           "http://localhost:4400",
           "https://app-portalreclamo.onrender.com",
+          "https://admin-portalreclamo.onrender.com",
         ],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],
