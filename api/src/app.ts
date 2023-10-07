@@ -22,8 +22,8 @@ class App {
         origin: [
           "https://app-portalreclamo.onrender.com",
           "https://admin-portalreclamo.onrender.com",
-          "http://localhost:8000",
-          "http://localhost:4400",
+          "http://localhost:4502",
+          "http://localhost:4503",
         ],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type,Authorization", "Content-Type", "id"],

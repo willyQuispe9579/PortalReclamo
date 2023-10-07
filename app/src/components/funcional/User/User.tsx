@@ -13,6 +13,11 @@ import styles from "./User.module.scss";
 import ClaimType from "@/components/ui/CardType";
 import { useClaim, usePerson } from "@/store/hooks";
 import ScreenLoader from "@/components/layout/ScreenLoader";
+import { isValidPhone } from "@/utils/validate";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+import Link from "@/components/ui/Link";
+import { handleClientScriptLoad } from "next/script";
 
 const User = () => {
   const dataForm = {
@@ -97,6 +102,22 @@ const User = () => {
     getByRutPerson(formatRut(form.rut.value));
   };
 
+  const handleOnchangePhone = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let inputValue = e.target.value;
+
+    if (inputValue.length > 9) {
+      inputValue = inputValue.slice(0, 9);
+    }
+
+    setForm({
+      ...form,
+      phone: {
+        value: inputValue.replace(/[^\d.]/g, ""),
+        isValid: isValidPhone(inputValue.trim()),
+      },
+    });
+  };
+
   const handleOnClick = async () => {
     if (errorForm) {
       createPerson(
@@ -148,20 +169,18 @@ const User = () => {
     }
   }, [claim, clicked]);
 
+  const handleOnclickShare = () => {};
+
   return (
     <>
       <Bar type="top" />
-
+      <Header>Mis datos personales</Header>
       <Option>
         <Left>
           <BreadCrumbs path={router.pathname} />
+          <Link onClick={handleOnclickShare} valor="Compartir Portal reclamo" />
         </Left>
-        <Central
-          onClick={handleOnClick}
-          buttonTitle="Siguiente"
-          title="Mis Datos"
-          disabled={!errorForm}
-        >
+        <Central>
           <Column gap="20px">
             <Column gap="5px">
               <Row gap="5px">
@@ -220,7 +239,7 @@ const User = () => {
               />
               <InputText
                 type="text"
-                onChange={handleOnchange}
+                onChange={handleOnchangePhone}
                 value={form.phone.value}
                 label="Teléfono"
                 name="phone"
@@ -241,7 +260,14 @@ const User = () => {
           </Column>
         </div>
       </Option>
-
+      <Footer>
+        <Button
+          text="Siguiente"
+          width="190px"
+          onClick={handleOnClick}
+          disabled={!errorForm}
+        />
+      </Footer>
       <Bar type="bottom" />
       {isLoadingPerson && <ScreenLoader />}
     </>

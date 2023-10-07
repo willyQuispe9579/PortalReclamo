@@ -8,6 +8,9 @@ export interface IClaim {
   person_data: IPerson;
   level: string;
   status: string;
+  address: string;
+  hour: string;
+  date: string;
   claim_file_data: IFileClaim[];
 }
 
@@ -37,6 +40,9 @@ const initData = {
   person_id: "",
   status: "",
   level: "",
+  address: "",
+  hour: "",
+  date: "",
   person_data: {
     id: "",
     rut: "",

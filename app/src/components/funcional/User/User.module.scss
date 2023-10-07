@@ -20,10 +20,10 @@
 
 .userRight {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 400px;
-  height: 70vh;
+  height: 60vh;
   @include media-xl() {
     display: none;
   }

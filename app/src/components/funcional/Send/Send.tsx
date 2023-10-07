@@ -8,6 +8,7 @@ import styles from "./Send.module.scss";
 import { Modal, Overlay, ModalTitle, ModalBody } from "@/components/ui/Modal";
 import Message from "@/components/ui/Message";
 import CheckBox from "@/components/ui/CheckBox";
+import ButtonIcon from "@/components/ui/ButtonIcon";
 import {
   useClaim,
   useClaimData,
@@ -20,9 +21,15 @@ import ScreenLoader from "@/components/layout/ScreenLoader";
 import CardSimple from "@/components/ui/CardSimple";
 import InputInfo from "@/components/ui/InputInfo";
 import TexTareaInfo from "@/components/ui/TexTareaInfo";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import Button from "@/components/ui/Button";
+import Link from "@/components/ui/Link";
+
 const Send = () => {
   const router = useRouter();
   const [modal, setModal] = useState(false);
+  const { claimId } = router.query;
 
   const conditions = [
     {
@@ -56,22 +63,33 @@ const Send = () => {
 
   const handleOnClickMessage = () => {
     setModal(false);
-    router.push('https://www.munistgo.cl/')
+    router.push("https://www.munistgo.cl/");
   };
-
+  const handleOnclickShare = () => {};
   return (
     <>
       <Bar type="top" />
+      <Header>
+        <div className={styles.buttonNavegation}>
+          <ButtonIcon
+            icon="chevron_left"
+            typeButton="square"
+            onClick={() => {
+              router.push({
+                pathname: "/claim",
+                query: { claimId: claimId },
+              });
+            }}
+          />
+        </div>
+        Resumen de mi reclamo
+      </Header>
       <Option>
         <Left>
-          <BreadCrumbs path={router.pathname} />
+          <BreadCrumbs path={router.pathname} />{" "}
+          <Link onClick={handleOnclickShare} valor="Compartir Portal reclamo" />
         </Left>
-        <Central
-          onClick={onClick}
-          buttonTitle="Enviar"
-          title="Enviar mi reclamo"
-          disabled={isChecked}
-        >
+        <Central>
           <div className={styles.claimInfo}>
             <Column gap="5px">
               <Row gap="5px">
@@ -80,10 +98,23 @@ const Send = () => {
                   label="Nombre"
                   value={` ${person.name} ${person.paternallastname} ${person.maternallastname}`}
                 />
+
                 <InputInfo
-                  width="100px"
-                  label="Archivos"
-                  value={`${fileList.length}`}
+                  width="95px"
+                  label="Hora"
+                  value={`${claimDetail.hour}`}
+                />
+              </Row>
+              <Row gap="5px">
+                <InputInfo
+                  width="145px"
+                  label="Fecha"
+                  value={`${claimDetail.date}`}
+                />
+                <InputInfo
+                  width="200px"
+                  label="Dirección"
+                  value={`${claimDetail.address}`}
                 />
               </Row>
               <InputInfo
@@ -91,11 +122,18 @@ const Send = () => {
                 label="Correo Electrónico"
                 value={`${person.email}`}
               />
-              <InputInfo
-                width="350px"
-                label="Tipo de reclamo"
-                value={`${claimData.type_claim}`}
-              />
+              <Row gap="5px">
+                <InputInfo
+                  width="250px"
+                  label="Tipo de reclamo"
+                  value={`${claimData.type_claim}`}
+                />
+                <InputInfo
+                  width="95px"
+                  label="Archivos"
+                  value={`${fileList.length}`}
+                />
+              </Row>
               <TexTareaInfo
                 width="350px"
                 label="Mi reclamo"
@@ -122,7 +160,14 @@ const Send = () => {
           />
         </div>
       </Option>
-
+      <Footer>
+        <Button
+          text="Enviar"
+          width="190px"
+          onClick={onClick}
+          disabled={isChecked}
+        />
+      </Footer>
       <Bar type="bottom" />
 
       <Overlay active={modal}>

@@ -1,10 +1,10 @@
 @import "../../../styles/mixins.scss";
 .claimRight {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 400px;
-  height: 70vh;
+  height: 60vh;
   @include media-xl() {
     display: none;
   }
@@ -26,7 +26,8 @@
   gap: 10px;
 
   @include media-xl() {
-    justify-content: space-between;
+    justify-content: center;
+    width: 350px;
   }
 
   ul {
@@ -39,8 +40,11 @@
     height: auto;
     overflow: auto;
 
+
     @include media-xl() {
-      height: 80px;
+      height: 50px;
+      flex-direction: row;
+      justify-content: center;
     }
 
     &::-webkit-scrollbar {
@@ -70,5 +74,14 @@
     max-width: 1300px;
     max-height: 80vh;
     object-fit: contain;
+  }
+}
+
+.buttonNavegation {
+  display: none;
+  @include media-xl() {
+    display: flex;
+    position: absolute;
+    left: 10px;
   }
 }

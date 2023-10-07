@@ -3,11 +3,6 @@
   position: relative;
   height: 200px;
 
-  @include media-xl() {
-    width: 320px !important;
-    height: 150px;
-  }
-
   label {
     position: absolute;
     top: 5px;
@@ -25,14 +20,10 @@
     font-weight: 400;
     font-size: 16px;
     color: #002e39;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     border-radius: 7px;
     background-color: white;
     resize: none;
-
-    @include media-xl() {
-      height: 150px;
-    }
 
     &:focus {
       background-color: #fdfde9;
@@ -56,9 +47,6 @@
   position: relative;
   height: 200px;
 
-  @include media-xl() {
-    width: 320px !important;
-  }
   label {
     position: absolute;
     top: 5px;
@@ -76,7 +64,7 @@
     font-weight: 400;
     font-size: 15px;
     color: #666666;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     border-radius: 7px;
     background-color: #fbe4e4;
     resize: none;

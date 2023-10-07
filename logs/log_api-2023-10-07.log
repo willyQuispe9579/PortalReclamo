@@ -1,0 +1,266 @@
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-06 22:56:21"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-06 22:56:22"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-06 23:01:45"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-06 23:01:46"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-06 23:04:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-06 23:04:21"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-06 23:06:11"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-06 23:06:12"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-10-06 23:06:44"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-10-06 23:06:45"}
+{"level":"info","message":{"body":{"email":"quispebadquispe@gmail.com","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-10-06 23:09:44"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/claim/create"},"timestamp":"2023-10-06 23:09:44"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-10-06 23:09:45"}
+{"level":"info","message":{"data":{"endingdate":"2023-10-07T05:09:45.382Z","id":"956a4ba0-f154-4edc-b349-3a512bb273cc","openingdate":"2023-10-07T05:09:45.382Z"},"model":"ModelClaim/create"},"timestamp":"2023-10-06 23:09:45"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-06 23:09:46"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-06 23:09:46"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-06 23:09:46"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-06 23:09:46"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-06 23:09:46"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 00:06:06"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 00:06:07"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-10-07 00:06:10"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-10-07 00:06:11"}
+{"level":"info","message":{"body":{"email":"quispebadquispe@gmail.com","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-10-07 00:06:11"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:06:12"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 00:06:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:06:12"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-10-07 00:06:12"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:06:13"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:06:13"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:09:52"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:09:53"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:09:53"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:09:54"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 00:35:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 00:35:20"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-10-07 00:35:28"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-10-07 00:35:29"}
+{"level":"info","message":{"body":{"email":"quispebadquispe@gmail.com","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-10-07 00:35:31"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-10-07 00:35:31"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:35:31"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 00:35:31"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 00:35:31"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:35:32"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 00:35:33"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:09:24"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:09:26"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:09:36"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:09:37"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:12:02"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:12:03"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:12:13"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:12:14"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:17:15"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:17:16"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:18:22"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:18:22"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:18:23"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:18:23"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:18:26"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:18:26"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:18:27"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:18:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:19:56"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:19:57"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:19:57"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:19:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:20:24"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:20:25"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:20:25"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:20:26"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:21:10"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:21:10"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:21:11"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:21:11"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:22:18"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:22:18"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:22:55"}
+{"level":"info","message":{"body":{"rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/getByRut"},"timestamp":"2023-10-07 01:22:57"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/getByRut"},"timestamp":"2023-10-07 01:22:58"}
+{"level":"info","message":{"body":{"email":"quispebadquispe@gmail.com","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"method":"POST","params":"","query":"","url":"/api/person/create"},"timestamp":"2023-10-07 01:22:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:22:59"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:22:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:22:59"}
+{"level":"info","message":{"data":{"email":"quispebadquispe@gmail.com","id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","maternallastname":"huamani","name":"willy","paternallastname":"quispe","phone":"958746321","rut":"27.648.009-K"},"model":"Person/create"},"timestamp":"2023-10-07 01:22:59"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:23:00"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:23:00"}
+{"level":"info","message":{"body":{"address":"San Miguel","claim_body":"mi reclmoaas","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:22","level":"menor","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","type_id":"334dd060-29cf-4f52-98ae-d017a4affcf5"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-10-07 01:23:10"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:23:11"}
+{"level":"error","message":{"error":"syntax error at or near \"address\"","model":"ModelClaim/create"},"timestamp":"2023-10-07 01:23:11"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:25:19"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:25:20"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:25:21"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:25:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:25:21"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:25:22"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:25:23"}
+{"level":"info","message":{"body":{"address":"San Lorenzo","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:25","level":"menor","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-10-07 01:25:34"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:25:34"}
+{"level":"error","message":{"error":"INSERT has more expressions than target columns","model":"ModelClaim/create"},"timestamp":"2023-10-07 01:25:35"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:27:48"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:27:49"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:27:51"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:27:51"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:27:51"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:27:52"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:27:52"}
+{"level":"info","message":{"body":{"address":"San Lorenzo","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","level":"menor","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-10-07 01:27:58"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:27:58"}
+{"level":"info","message":{"data":{"address":"San Lorenzo","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","id":"572d51f7-3f85-4c03-bfdc-c5a03c8b20ef","level":"menor","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"model":"ModelClaim/create"},"timestamp":"2023-10-07 01:27:59"}
+{"level":"info","message":{"data":"successful connection to Nodemailer","utils":"emailSender"},"timestamp":"2023-10-07 01:28:00"}
+{"level":"info","message":{"data":{"accepted":["quispebadquispe@gmail.com"],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","CHUNKING","SMTPUTF8"],"envelope":{"from":"willypruebas6@gmail.com","to":["quispebadquispe@gmail.com"]},"envelopeTime":808,"messageId":"<8e77a704-8c0b-124b-03ba-d8713fd044eb@gmail.com>","messageSize":24366,"messageTime":830,"rejected":[],"response":"250 2.0.0 OK  1696652882 fk3-20020a056a003a8300b00690ca4356f1sm2283096pfb.198 - gsmtp"},"utils":"emailSender"},"timestamp":"2023-10-07 01:28:02"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:30:25"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:30:26"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:34"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:34"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:30:34"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:35"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:40"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:40"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:30:40"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:40"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:40"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:30:58"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:30:59"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:59"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:30:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:31:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:31:21"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:31:21"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:31:22"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:31:22"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:33:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:33:28"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:33:28"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:33:29"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:33:29"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:34:52"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:34:52"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:34:53"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:34:53"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:34:53"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:34:54"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:34:54"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:34:54"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:34:54"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:36:56"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:36:57"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:37:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:37:00"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:37:00"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:37:01"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:37:01"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:37:03"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:37:05"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:37:34"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:37:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:37:37"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:37:37"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:37:37"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:37:38"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:37:38"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:38:15"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:38:23"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:38:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:38:35"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:38:35"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:38:36"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:38:36"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:38:44"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:38:44"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:39:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:39:07"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:39:07"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:39:07"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:39:07"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:39:08"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:39:29"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:39:29"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:39:30"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:39:31"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:40:12"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:40:12"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:40:13"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:40:42"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:40:42"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:40:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:40:53"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:40:54"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:40:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:40:59"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:40:59"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:40:59"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:41:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:41:31"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:41:32"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:41:41"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:41:41"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 01:47:44"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 01:47:45"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:47:48"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 01:47:48"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 01:47:48"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:47:49"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 01:47:49"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 02:06:14"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 02:06:15"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/file/add"},"timestamp":"2023-10-07 02:06:27"}
+{"level":"info","message":{"data":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"model":"file/add"},"timestamp":"2023-10-07 02:06:31"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","public_id":"blflevifsz7qxvyuctoj"},"method":"POST","params":"","query":"","url":"/api/file/remove"},"timestamp":"2023-10-07 02:06:38"}
+{"level":"info","message":{"data":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","public_id":"blflevifsz7qxvyuctoj"},"model":"file/remove"},"timestamp":"2023-10-07 02:06:39"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","public_id":"rkeowljjoojmvezxbjat"},"method":"POST","params":"","query":"","url":"/api/file/remove"},"timestamp":"2023-10-07 02:06:42"}
+{"level":"info","message":{"data":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","public_id":"rkeowljjoojmvezxbjat"},"model":"file/remove"},"timestamp":"2023-10-07 02:06:43"}
+{"level":"info","message":{"body":{"address":"asdasdasd","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","level":"menor","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-10-07 02:07:00"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 02:07:01"}
+{"level":"info","message":{"data":{"address":"asdasdasd","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","id":"572d51f7-3f85-4c03-bfdc-c5a03c8b20ef","level":"menor","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"model":"ModelClaim/create"},"timestamp":"2023-10-07 02:07:02"}
+{"level":"info","message":{"data":"successful connection to Nodemailer","utils":"emailSender"},"timestamp":"2023-10-07 02:07:03"}
+{"level":"info","message":{"data":{"accepted":["quispebadquispe@gmail.com"],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","CHUNKING","SMTPUTF8"],"envelope":{"from":"willypruebas6@gmail.com","to":["quispebadquispe@gmail.com"]},"envelopeTime":749,"messageId":"<90d4012a-42a4-f890-d509-ee5c626827f7@gmail.com>","messageSize":24366,"messageTime":1062,"rejected":[],"response":"250 2.0.0 OK  1696655225 jc20-20020a17090325d400b001c613b4aa33sm4845370plb.287 - gsmtp"},"utils":"emailSender"},"timestamp":"2023-10-07 02:07:05"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:09:35"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 02:09:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:09:35"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:09:36"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:09:36"}
+{"level":"info","message":{"body":{"address":"asdasdasd","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","level":"menor","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"method":"POST","params":"","query":"","url":"/api/claimDetail/create"},"timestamp":"2023-10-07 02:10:34"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 02:10:34"}
+{"level":"info","message":{"data":{"address":"asdasdasd","claim_body":"asdasdasd","claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc","date":"07/10/2023","hour":"01:27","id":"572d51f7-3f85-4c03-bfdc-c5a03c8b20ef","level":"menor","type_id":"5236f55f-727d-40af-8397-d997dc6952e8"},"model":"ModelClaim/create"},"timestamp":"2023-10-07 02:10:35"}
+{"level":"info","message":{"data":"successful connection to Nodemailer","utils":"emailSender"},"timestamp":"2023-10-07 02:10:37"}
+{"level":"info","message":{"data":{"accepted":["quispebadquispe@gmail.com"],"ehlo":["SIZE 35882577","8BITMIME","AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH","ENHANCEDSTATUSCODES","PIPELINING","CHUNKING","SMTPUTF8"],"envelope":{"from":"willypruebas6@gmail.com","to":["quispebadquispe@gmail.com"]},"envelopeTime":560,"messageId":"<d68dc181-6bda-b78b-69aa-29544d77c7d1@gmail.com>","messageSize":24366,"messageTime":656,"rejected":[],"response":"250 2.0.0 OK  1696655439 c26-20020aa781da000000b0068be3489b0dsm2437926pfn.172 - gsmtp"},"utils":"emailSender"},"timestamp":"2023-10-07 02:10:39"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:14:36"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 02:14:36"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:14:36"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:14:37"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:14:37"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:16:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:16:28"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:16:28"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:16:29"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:16:35"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:16:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:17:09"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:17:10"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:17:17"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:17:17"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:17:46"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:17:47"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:17:58"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:17:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:18:01"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:18:02"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:18:11"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:18:11"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-07 02:27:09"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-07 02:27:09"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:27:13"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:27:14"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:27:14"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:27:14"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:27:22"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:27:22"}
+{"level":"info","message":{"body":{"claim_id":"956a4ba0-f154-4edc-b349-3a512bb273cc"},"method":"POST","params":"","query":"","url":"/api/claim/getById"},"timestamp":"2023-10-07 02:27:22"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:27:22"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:27:23"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/api/typeclaim/getAll"},"timestamp":"2023-10-07 02:27:51"}
+{"level":"info","message":{"data":[{"id":"5236f55f-727d-40af-8397-d997dc6952e8","typename":"Tiempo"},{"id":"334dd060-29cf-4f52-98ae-d017a4affcf5","typename":"Seguridad y orden público"}],"model":"TypeClaimModels/getAll"},"timestamp":"2023-10-07 02:27:52"}

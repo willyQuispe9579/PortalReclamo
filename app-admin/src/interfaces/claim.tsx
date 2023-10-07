@@ -6,6 +6,9 @@ export interface IClaim {
   type_claim: string;
   status: string;
   level: string;
+  address: string;
+  hour: string;
+  date: string;
   person_data: {
     id: string;
     rut: string;
@@ -34,6 +37,9 @@ const initData = {
   type_claim: "",
   level: "",
   status: "",
+  address: "",
+  hour: "",
+  date: "",
   person_data: {
     id: "",
     rut: "",

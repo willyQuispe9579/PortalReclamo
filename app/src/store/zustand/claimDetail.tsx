@@ -11,9 +11,21 @@ type claimDetailState = {
     claim_id: string,
     claim_body: string,
     type_id: string,
-    person_id: string
+    person_id: string,
+    address: string,
+    hour: string,
+    date: string,
+    level: string
   ) => void;
-  setData: (claim_id: string, claim_body: string, type_id: string) => void;
+  setData: (
+    claim_id: string,
+    claim_body: string,
+    type_id: string,
+    address: string,
+    hour: string,
+    date: string,
+    level: string
+  ) => void;
 };
 
 const initData = {
@@ -21,6 +33,10 @@ const initData = {
   claim_id: "",
   claim_body: "",
   type_id: "",
+  address: "",
+  hour: "",
+  date: "",
+  level: "",
 };
 export const claimDetailStore = create<claimDetailState>((set, get) => ({
   claimDetail: initData,
@@ -32,7 +48,11 @@ export const claimDetailStore = create<claimDetailState>((set, get) => ({
     claim_id: string,
     claim_body: string,
     type_id: string,
-    person_id: string
+    person_id: string,
+    address: string,
+    hour: string,
+    date: string,
+    level: string
   ) => {
     try {
       set((state) => ({
@@ -47,6 +67,10 @@ export const claimDetailStore = create<claimDetailState>((set, get) => ({
         claim_body,
         type_id,
         person_id,
+        address,
+        hour,
+        date,
+        level,
       });
 
       set((state) => ({
@@ -65,13 +89,24 @@ export const claimDetailStore = create<claimDetailState>((set, get) => ({
       }));
     }
   },
-  setData: async (claim_id: string, claim_body: string, type_id: string) => {
+  setData: async (
+    claim_id: string,
+    claim_body: string,
+    type_id: string,
+    address: string,
+    hour: string,
+    date: string,
+    level: string
+  ) => {
     try {
       const data = {
-        id: "",
         claim_id: claim_id,
         claim_body: claim_body,
         type_id: type_id,
+        address,
+        hour,
+        date,
+        level,
       };
       set((state) => ({
         ...state,

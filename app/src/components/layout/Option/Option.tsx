@@ -4,10 +4,6 @@ import Button from "@/components/ui/Button";
 
 interface ICentral {
   children: any;
-  onClick: any;
-  buttonTitle: string;
-  title: string;
-  disabled: boolean;
 }
 
 const Option = ({ children }: any) => {
@@ -18,25 +14,8 @@ const Left = ({ children }: any) => {
   return <div className={styles.left}>{children}</div>;
 };
 
-const Central = ({
-  children,
-  onClick,
-  buttonTitle,
-  title,
-  disabled,
-}: ICentral) => {
-  return (
-    <div className={styles.central}>
-      <h1 className={styles.title}>{title}</h1>
-      {children}
-      <Button
-        text={buttonTitle}
-        onClick={onClick}
-        width="180px"
-        disabled={disabled}
-      />
-    </div>
-  );
+const Central = ({ children }: ICentral) => {
+  return <div className={styles.central}>{children}</div>;
 };
 
 const Right = ({ children }: any) => {

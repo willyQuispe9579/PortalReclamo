@@ -18,6 +18,21 @@ const send = async (req: any, res: any) => {
   try {
     const { mailOptions, attachments } = req.body;
 
+    type MailOptionsT = {
+      subject: "Correo de respuesta";
+      name: string;
+      paternalLastName: string;
+      maternalLastName: string;
+      email: string;
+    };
+
+    type AttachmentsT = {
+      fileName: string;
+      urlDoc: String;
+    };
+
+    
+
     const emailSent = await ModelEmail.send(mailOptions, attachments);
 
     createLogger.info({

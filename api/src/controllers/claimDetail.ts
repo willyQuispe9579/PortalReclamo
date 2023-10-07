@@ -21,14 +21,25 @@ type AttachmentsT = {
 
 const create = async (req: any, res: any) => {
   try {
-    const { claim_id, claim_body, type_id, person_id } = req.body;
+    const {
+      claim_id,
+      claim_body,
+      type_id,
+      person_id,
+      address,
+      hour,
+      date,
+      level,
+    } = req.body;
 
-    const level = "Urgente";
     const result = await ModelClaimDetail.create(
       claim_id,
       claim_body,
       type_id,
-      level
+      level,
+      address,
+      hour,
+      date
     );
 
     if (!result.success) {
@@ -50,7 +61,6 @@ const create = async (req: any, res: any) => {
     const resultDataBase = await ModelClaimStatus.create(claim_id, "Recibido");
 
     const resultPerson = await ModelPerson.getById(person_id);
-    console.log(resultPerson);
 
     const { data } = resultPerson;
 

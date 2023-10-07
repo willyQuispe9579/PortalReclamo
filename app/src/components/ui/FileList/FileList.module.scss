@@ -1,9 +1,13 @@
+@import "../../../styles/mixins.scss";
 .fileList {
-  height: 30px;
+  height: 40px;
   width: 100%;
   display: flex;
   align-items: center;
   gap: 1px;
+  @include media-xl() {
+    width: auto;
+  }
 
   span {
     background: #002e39;
@@ -11,17 +15,17 @@
     font-weight: 300;
     font-size: 20px;
     width: 40px;
-    height: 30px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 7px 7px 0px;
     cursor: pointer;
   }
 
   span:first-child {
     background: #002e39;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 7px 0px 0px 7px;
     font-size: 12px;
     font-weight: 300;
   }
@@ -32,9 +36,12 @@
     align-items: center;
     padding-left: 10px;
     width: 220px;
-    height: 30px;
+    height: 40px;
     font-size: 12px;
     font-weight: 400;
     background: rgb(0, 46, 57, 0.7);
+    @include media-xl() {
+      display: none;
+    }
   }
 }

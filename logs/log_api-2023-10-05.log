@@ -1,3 +1,9 @@
 {"level":"info","message":"API listening port 5400","timestamp":"2023-10-04 22:58:51"}
 {"level":"info","message":"Connected to Database","timestamp":"2023-10-04 22:58:51"}
 {"level":"info","message":{"body":{"password":"admin","person_id":"776d0cc0-a337-4d8d-8791-cdab1a8b4a74"},"method":"POST","params":"","query":"","url":"/api/user/create"},"timestamp":"2023-10-04 22:59:25"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-04 23:00:20"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-04 23:00:21"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-05 00:05:41"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-05 00:05:42"}
+{"level":"info","message":"API listening port 5400","timestamp":"2023-10-05 00:08:39"}
+{"level":"info","message":"Connected to Database","timestamp":"2023-10-05 00:08:40"}

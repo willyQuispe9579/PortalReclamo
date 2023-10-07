@@ -26,13 +26,17 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (claimData.claim_id !== "" && claimId) {
       setDataClaimDetail(
-        claimId.toString(),
+        claimData.claim_id,
         claimData.body_claim,
-        claimData.type_claim_id
+        claimData.type_claim_id,
+        claimData.address,
+        claimData.hour,
+        claimData.date,
+        claimData.level
       );
     }
 
-    if (claimData.claim_file_data.length > 0) {
+    if (claimData.claim_file_data?.length > 0) {
       setFile(claimData.claim_file_data);
     }
     if (claimData.person_data) {
@@ -49,5 +53,5 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [claimData]);
 
-  return  <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
