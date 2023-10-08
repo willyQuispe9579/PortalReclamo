@@ -16,6 +16,7 @@ const InputRadio = ({
 }: IInputRadio) => {
   return (
     <div className={styles.inputRadio}>
+      <span>Seleccion segun el estado</span>
       {options.map((option: any, key: number) => (
         <>
           <input

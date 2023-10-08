@@ -1,0 +1,32 @@
+@import "../../../styles/mixins.scss";
+.itemTerms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  @include media-xl() {
+    width: auto;
+  }
+}
+
+.contenMainTerms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 700px;
+  max-width: 700px;
+  gap: 10px;
+  padding: 10px;
+
+  @include media-xl() {
+    width: 100%;
+  }
+}

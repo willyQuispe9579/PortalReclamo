@@ -26,6 +26,8 @@ import Footer from "@/components/layout/Footer";
 import Button from "@/components/ui/Button";
 import Link from "@/components/ui/Link";
 import { addMonths, format, parse, isValid, isDate } from "date-fns";
+import CardTerms from "@/components/ui/CardTerms";
+import Shared from "@/components/ui/Shared";
 
 const Claim = () => {
   const router = useRouter();
@@ -243,7 +245,7 @@ const Claim = () => {
       });
     }
   };
-  const handleOnclickShare = () => {};
+
   return (
     <>
       <Bar type="top" />
@@ -264,8 +266,8 @@ const Claim = () => {
       </Header>
       <Option>
         <Left>
-          <BreadCrumbs path={router.pathname} />{" "}
-          <Link onClick={handleOnclickShare} valor="Compartir Portal reclamo" />
+          <BreadCrumbs path={router.pathname} />
+          <Shared />
         </Left>
         <Central>
           <Column gap="5px">
@@ -329,7 +331,7 @@ const Claim = () => {
                 value={form.hour.value}
                 label="Hora"
                 name="hour"
-                width="195px"
+                width="194px"
                 isValid={form.hour.isValid ? "inputText" : "unInputText"}
               />
             </Row>
@@ -347,7 +349,7 @@ const Claim = () => {
                 { value: "moderado", label: "Moderado" },
                 { value: "grave", label: "Grave" },
               ]}
-              width="112px"
+              width="109px"
               selectedOption={level}
               onChange={handleRadioChange}
             />
@@ -402,6 +404,7 @@ const Claim = () => {
               </ul>
             )}
           </div>
+          <CardTerms />
         </div>
       </Option>
       <Footer>

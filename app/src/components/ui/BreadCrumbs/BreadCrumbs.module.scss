@@ -1,7 +1,7 @@
 @import "../../../styles/mixins.scss";
 .breadCrumbs {
-  width: 200px;
-  height: 190px;
+  width: 250px;
+  height: 180px;
   position: relative;
 
   @include media-xl() {
@@ -12,7 +12,7 @@
 
 .content {
   display: flex;
-  gap: 25px;
+  gap: 15px;
   flex-direction: column;
   position: absolute;
   width: 100%;
@@ -43,7 +43,7 @@
 
 .asset {
   background-color: #002e39;
-  width: 200px;
+  width: 250px;
   height: 50px;
   border-radius: 7px;
   display: flex;
@@ -69,7 +69,7 @@
     border: 1px solid rgba(135, 153, 160, 0.25);
     border-radius: 7px 0 0 7px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
 
     @include media-xl() {
@@ -82,7 +82,7 @@
     align-items: center;
     margin-left: 10px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 400;
     color: white;
 
     @include media-xl() {
@@ -103,7 +103,7 @@
 
 .prev {
   background-color: rgb(0, 46, 57, 0.7);
-  width: 200px;
+  width: 250px;
   height: 50px;
   border-radius: 7px;
   display: flex;
@@ -128,7 +128,7 @@
     border: 1px solid rgba(135, 153, 160, 0.25);
     border-radius: 7px 0 0 7px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
 
     @include media-xl() {
@@ -141,7 +141,7 @@
     align-items: center;
     margin-left: 10px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 400;
     color: white;
 
     @include media-xl() {
@@ -162,7 +162,7 @@
 
 .next {
   background-color: #ffffff;
-  width: 200px;
+  width: 250px;
   height: 50px;
   border-radius: 7px;
   display: flex;
@@ -187,7 +187,7 @@
     border: 1px solid rgba(135, 153, 160, 0.25);
     border-radius: 7px 0 0 7px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
 
     @include media-xl() {
@@ -200,7 +200,7 @@
     align-items: center;
     margin-left: 10px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 400;
     color: #002e39;
 
     @include media-xl() {

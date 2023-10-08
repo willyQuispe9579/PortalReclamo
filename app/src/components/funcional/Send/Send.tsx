@@ -25,6 +25,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Button from "@/components/ui/Button";
 import Link from "@/components/ui/Link";
+import CardTerms from "@/components/ui/CardTerms";
+import Shared from "@/components/ui/Shared";
 
 const Send = () => {
   const router = useRouter();
@@ -65,7 +67,7 @@ const Send = () => {
     setModal(false);
     router.push("https://www.munistgo.cl/");
   };
-  const handleOnclickShare = () => {};
+
   return (
     <>
       <Bar type="top" />
@@ -86,8 +88,7 @@ const Send = () => {
       </Header>
       <Option>
         <Left>
-          <BreadCrumbs path={router.pathname} />{" "}
-          <Link onClick={handleOnclickShare} valor="Compartir Portal reclamo" />
+          <BreadCrumbs path={router.pathname} /> <Shared />
         </Left>
         <Central>
           <div className={styles.claimInfo}>
@@ -142,6 +143,7 @@ const Send = () => {
             </Column>
           </div>
           <div className={styles.sendCenter}>
+            <CardTerms />
             <CheckBox
               onChange={handleCheckBoxChange}
               checked={isChecked}
@@ -158,6 +160,7 @@ const Send = () => {
             checked={isChecked}
             valor="Aceptar todo"
           />
+          <CardTerms />
         </div>
       </Option>
       <Footer>

@@ -1,8 +1,9 @@
 @import "../../../styles/mixins.scss";
 .claimRight {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   width: 400px;
   height: 60vh;
   @include media-xl() {
@@ -35,11 +36,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
     width: 100%;
     height: auto;
     overflow: auto;
-
 
     @include media-xl() {
       height: 50px;

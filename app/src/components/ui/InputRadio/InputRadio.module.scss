@@ -2,8 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: relative;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 21px;
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   gap: 5px;
+  height: 60px;
+  border-radius: 7px;
+
   input {
     display: none;
 
@@ -12,19 +19,26 @@
       color: white;
     }
   }
+  span {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #888888;
+  }
 
   label {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 25px;
     border-radius: 7px;
     padding: 5px;
     color: #002e39;
     background-color: white;
-    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     transition: transform 0.3s linear;
 
     &:active {

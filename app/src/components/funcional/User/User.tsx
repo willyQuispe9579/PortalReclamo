@@ -18,6 +18,8 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Link from "@/components/ui/Link";
 import { handleClientScriptLoad } from "next/script";
+import CardTerms from "@/components/ui/CardTerms";
+import Shared from "@/components/ui/Shared";
 
 const User = () => {
   const dataForm = {
@@ -178,7 +180,7 @@ const User = () => {
       <Option>
         <Left>
           <BreadCrumbs path={router.pathname} />
-          <Link onClick={handleOnclickShare} valor="Compartir Portal reclamo" />
+          <Shared />
         </Left>
         <Central>
           <Column gap="20px">
@@ -248,9 +250,13 @@ const User = () => {
               />
             </Column>
           </Column>
+          <div className={styles.termsUser}>
+            <CardTerms />
+            <Shared />
+          </div>
         </Central>
         <div className={styles.userRight}>
-          <Column gap="30px">
+          <Column gap="15px">
             <h1 className={styles.titleUser}>Portal reclamo</h1>
             <h2 className={styles.infoUser}>
               Gracias por considerar nuestro portal de reclamos para expresar su
@@ -258,6 +264,7 @@ const User = () => {
               cualquier asunto que desee plantear.
             </h2>
           </Column>
+          <CardTerms />
         </div>
       </Option>
       <Footer>

@@ -20,11 +20,21 @@
 
 .userRight {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   width: 400px;
   height: 60vh;
   @include media-xl() {
     display: none;
+  }
+}
+
+.termsUser {
+  display: none;
+  @include media-xl() {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
