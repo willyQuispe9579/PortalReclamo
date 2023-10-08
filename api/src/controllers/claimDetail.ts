@@ -1,4 +1,5 @@
 import createLogger from "../utils/logger";
+import { Response, Request } from "express";
 
 import * as ModelClaimDetail from "../models/claimDetail";
 import * as ModelClaimPerson from "../models/claimPerson";
@@ -19,7 +20,7 @@ type AttachmentsT = {
   urlDoc: String;
 };
 
-const create = async (req: any, res: any) => {
+const create = async (req: Request, res: Response) => {
   try {
     const {
       claim_id,
@@ -32,6 +33,8 @@ const create = async (req: any, res: any) => {
       level,
     } = req.body;
 
+    console.log(req.body);
+
     const result = await ModelClaimDetail.create(
       claim_id,
       claim_body,
@@ -41,6 +44,8 @@ const create = async (req: any, res: any) => {
       hour,
       date
     );
+    
+    console.log(result.data);
 
     if (!result.success) {
       createLogger.error({
@@ -53,6 +58,7 @@ const create = async (req: any, res: any) => {
     }
 
     const resultModel = await ModelClaimPerson.create(claim_id, person_id);
+
     createLogger.info({
       model: "ModelClaim/create",
       data: result.data,

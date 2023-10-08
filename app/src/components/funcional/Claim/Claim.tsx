@@ -101,7 +101,7 @@ const Claim = () => {
     }
   };
 
-  const address = claimDetail?.address.split(",");
+  const address = claimDetail?.address?.split(",");
 
   useEffect(() => {
     if (claimDetail.claim_id !== "") {
